@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Neunhaas';
+  src: local('parafinatrialblackl'), url('./assets/fonts/NeueHaasGrotesk/NHaasGroteskDSPro-15UltTh.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'Neunhaas_b';
+  src: local('neunhaas_b'), url('./assets/fonts/NeueHaasGrotesk/NHaasGroteskDSPro-25Th.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}@font-face {
+  font-family: 'Neunhaas_c';
+  src: local('neunhaas_c'), url('./assets/fonts/NeueHaasGrotesk/NHaasGroteskDSPro-55Rg.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}@font-face {
+  font-family: 'Neunhaas_d';
+  src: local('neunhaas_d'), url('./assets/fonts/NeueHaasGrotesk/NHaasGroteskTXPro-65Md.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}@font-face {
+  font-family: 'Neunhaas_e';
+  src: local('neunhaas_e'), url('./assets/fonts/NeueHaasGrotesk/NHaasGroteskTXPro-75Bd.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
